@@ -1,0 +1,19 @@
+project_name = "hospital"
+
+vpc_cidr = "10.0.0.0/16"
+
+public_subnet_a  = "10.0.1.0/24"
+public_subnet_b  = "10.0.2.0/24"
+
+private_subnet_a = "10.0.11.0/24"
+private_subnet_b = "10.0.12.0/24"
+
+instance_type = "t3.micro"
+
+key_name = "terraform"
+
+db_name = "hospital"
+
+db_username = "admin"
+
+terraform.tfvars.example
